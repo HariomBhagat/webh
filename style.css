@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar&display=swap');
+.bgimg{
+    background-image: url(sabji.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 650px;
+}
+.heed{
+    animation-name: headd !important;
+    animation-duration: 5s !important;
+    animation-iteration-count: infinite;
+}
+.headerset{
+    padding-top: 200px;
+    box-sizing: border-box;
+}
+.h11{
+    font-family: 'Akshar', sans-serif;
+}
+.ourservices{
+    background-color: rgb(224, 210, 210);
+    width: 100%;
+    border-radius: 10px;
+}
+.icom{
+    border-radius: 50%;
+    padding: 20px;
+    /* padding-top: 5px; */
+}
+.iitem:hover{
+    transform: scale(1.1);
+}
+.hh{
+    text-decoration: none;
+    color: black;
+}
+.sliderr{
+    border-radius: 10px;
+}
+.return{
+    position: fixed;
+    top:500px;
+    left: 1100px;
+}
+.footerr{
+    background-image: url("ppp.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.what{
+    color: green;
+    text-align: center;
+}
+.insta{
+    color: rgb(241, 55, 86);
+    text-align: center;
+}
+.twit{
+    color: skyblue;
+    text-align: center;
+}
+.link{
+    color: rgb(70, 70, 236);
+    text-align: center;
+}
+.face{
+    color: blue;
+    text-align: center;
+}
+.hhhhh{
+    text-decoration: none;
+    color: white;
+}
+/* imgaes.html */
+.our{
+    margin-top: 120px;
+}
+.immmg{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+@keyframes headd
+{
+    0%{
+        background-color: red;
+    }
+    20%{
+        background-color: pink;
+    }
+    40%{
+        background-color: blue;
+    }
+    60%{
+        background-color: aqua;
+    }
+    80%{
+        background-color: green;
+    }
+    100%{
+        background-color: rgb(184, 8, 37);
+    }
+}
+
